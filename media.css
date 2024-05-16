@@ -1,0 +1,172 @@
+@media(max-width:600px){
+    body{
+       
+        overflow-x: hidden;
+    }
+    header{
+        height: 20px
+    }
+    .navbar{
+        margin: 5px 15px;
+        font-size: 20px;
+    }
+    .contato{
+        visibility: hidden;
+    }
+    .text img{
+       width: 200px;
+
+    }
+    .redes-sociais{
+        margin:20px 0 0 0;
+
+    }
+    .container2{
+        min-width: 300px;
+        margin-left: 60px;
+        margin-top: -200px;
+
+    }
+    .container3 {
+        margin-left: 50px;
+    }
+    .container3 .serviços{
+        margin-right: 90px;
+        font-size: 40px;
+    }
+    .img{
+        border: solid 2px black;
+    }
+    .container4 {
+        display: inline;
+    }
+    footer h2 {
+        font-size: 40px;
+    }
+    iframe{
+        width: 350px;
+        margin-left: 20px;
+    }
+}
+
+@media(max-width:400px){
+    body{
+       
+        overflow-x: hidden;
+    }
+    header{
+        height: 10px;
+        
+        
+    }
+    .navbar{
+        margin: 0 15px 20px;
+        font-size: 18px;
+    }
+    .contato{
+        visibility: hidden;
+    }
+    .text img{
+       width: 180px;
+
+    }
+    .redes-sociais{
+        margin-top:40px;
+
+    }
+    .container2{
+        min-width: 300px;
+        margin-left: 40px;
+        margin-top: 200px;
+
+    }
+    .container3 {
+        margin-left: 35px;
+    }
+    .container3 .serviços{
+        margin-right: 95px;
+        font-size: 40px;
+    }
+    .img{
+        border: solid 2px black;
+    }
+    .container4{
+     display: inline;
+    }
+   
+    footer h2 {
+        font-size: 40px;
+        
+    }
+    footer p{
+        margin: 0;
+        margin-top: 5px;
+        
+    }
+    iframe{
+        width: 350px;
+        margin-left: 15px;
+    }
+}
+
+@media(max-width:380px){
+    body{
+       
+        overflow-x: hidden;
+    }
+    
+    header{
+       height: 10px;
+        
+    
+    }
+    .navbar{
+        margin: 0 15px 20px;
+        font-size: 18px;
+    }
+    .contato{
+        visibility: hidden;
+    }
+    .text img{
+       width: 180px;
+
+    }
+    .redes-sociais{
+        margin-top:40px;
+
+    }
+    .container2{
+        min-width: 300px;
+        margin-left: 40px;
+        margin-top: 200px;
+
+    }
+    .container3 {
+        margin-left: 35px;
+    }
+    .container3 .serviços{
+        margin-right: 95px;
+        font-size: 40px;
+    }
+    .img{
+        border: solid 2px black;
+    }
+    .container4{
+     display: inline;
+    }
+   
+    footer h2 {
+        font-size: 30px;
+        
+        
+    }
+    footer p{
+        margin: 0;
+        margin-top: 5px;
+        
+    }
+    iframe{
+        width: 350px;
+        margin-left: 15px;
+    }
+}
