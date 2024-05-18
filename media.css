@@ -1,34 +1,38 @@
-@media(max-width:600px){
-    body{
+@media(max-width:1100px){
+    
+  
+    .container1 h1{
+        margin-top: 55px;
        
-        overflow-x: hidden;
-    }
-    header{
-        height: 20px
     }
     .navbar{
-        margin: 5px 15px;
-        font-size: 20px;
+        font-size: 15px;
+        
     }
     .contato{
         visibility: hidden;
     }
+    .text{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+    }
     .text img{
-       width: 200px;
+       width: 150px;
 
     }
     .redes-sociais{
         margin:20px 0 0 0;
 
+    }.container2{
+        min-width: 100vw;
+        margin: 0;
     }
-    .container2{
-        min-width: 300px;
-        margin-left: 60px;
-        margin-top: -200px;
 
-    }
-    .container3 {
-        margin-left: 50px;
+    
+    .container3 h2{
+        margin-right: 40px;
+    
     }
     .container3 .serviços{
         margin-right: 90px;
@@ -36,6 +40,8 @@
     }
     .img{
         border: solid 2px black;
+        width: 200px;
+        
     }
     .container4 {
         display: inline;
@@ -49,19 +55,12 @@
     }
 }
 
-@media(max-width:400px){
-    body{
-       
-        overflow-x: hidden;
-    }
-    header{
-        height: 10px;
-        
-        
-    }
+@media(max-width:700px){
+   
+    
     .navbar{
         margin: 0 15px 20px;
-        font-size: 18px;
+        font-size: 15px;
     }
     .contato{
         visibility: hidden;
@@ -74,19 +73,7 @@
         margin-top:40px;
 
     }
-    .container2{
-        min-width: 300px;
-        margin-left: 40px;
-        margin-top: 200px;
-
-    }
-    .container3 {
-        margin-left: 35px;
-    }
-    .container3 .serviços{
-        margin-right: 95px;
-        font-size: 40px;
-    }
+  
     .img{
         border: solid 2px black;
     }
@@ -109,64 +96,65 @@
     }
 }
 
-@media(max-width:380px){
-    body{
-       
-        overflow-x: hidden;
+@media(max-width:400px){
+    .container1{
+        display: flex;
+        flex-direction: column;
+               
     }
     
-    header{
-       height: 10px;
-        
-    
+    .container1 h1{
+        margin-top: 70px;
     }
+
     .navbar{
-        margin: 0 15px 20px;
-        font-size: 18px;
+        margin:5px;
+        font-size: 18px;    
+    }
+    .container2{
+            display: flex;
+            flex-direction: column;
+         
     }
     .contato{
         visibility: hidden;
     }
+    .text{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+    }
     .text img{
-       width: 180px;
+       width: 200px;
 
     }
     .redes-sociais{
-        margin-top:40px;
+        margin:20px 0 0 0;
 
     }
-    .container2{
-        min-width: 300px;
-        margin-left: 40px;
-        margin-top: 200px;
-
-    }
-    .container3 {
-        margin-left: 35px;
+    
+    .container3 h2{
+        margin-right: 40px;
+    
     }
     .container3 .serviços{
-        margin-right: 95px;
-        font-size: 40px;
+        margin-right: 50px;
+        font-size: 35px;
     }
-    .img{
+   .container3 .img{
         border: solid 2px black;
+        width: 230px;
+        height: 230px;
+    
     }
-    .container4{
-     display: inline;
+    .container4 {
+        display: inline;
     }
-   
     footer h2 {
-        font-size: 30px;
-        
-        
-    }
-    footer p{
-        margin: 0;
-        margin-top: 5px;
-        
+        font-size: 40px;
     }
     iframe{
         width: 350px;
-        margin-left: 15px;
+        margin-left: 20px;
     }
 }
